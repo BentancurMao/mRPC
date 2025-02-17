@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/example-common/example-common.iml" filepath="$PROJECT_DIR$/example-common/example-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example-consumer/example-consumer.iml" filepath="$PROJECT_DIR$/example-consumer/example-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example-provider/example-provider.iml" filepath="$PROJECT_DIR$/example-provider/example-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mRPC.iml" filepath="$PROJECT_DIR$/mRPC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mao-rpc-core/mao-rpc-core.iml" filepath="$PROJECT_DIR$/mao-rpc-core/mao-rpc-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mao-rpc-easy/mao-rpc-easy.iml" filepath="$PROJECT_DIR$/mao-rpc-easy/mao-rpc-easy.iml" />
+    </modules>
+  </component>
+</project>

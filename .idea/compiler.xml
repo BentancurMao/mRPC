@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mao-rpc-core" />
+        <module name="example-provider" />
+        <module name="example-common" />
+        <module name="example-consumer" />
+        <module name="mao-rpc-easy" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="example-common" target="11" />
+      <module name="example-consumer" target="11" />
+      <module name="example-provider" target="11" />
+      <module name="mao-rpc-core" target="11" />
+      <module name="mao-rpc-easy" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

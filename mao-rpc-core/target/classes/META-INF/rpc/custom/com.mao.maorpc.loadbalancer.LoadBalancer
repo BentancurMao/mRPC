@@ -1,0 +1,3 @@
+roundRobin=com.mao.maorpc.loadbalancer.RoundRobinLoadBalancer
+random=com.mao.maorpc.loadbalancer.RandomLoadBalancer
+consistentHash=com.mao.maorpc.loadbalancer.ConsistentHashLoadBalancer

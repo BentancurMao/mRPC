@@ -1,0 +1,20 @@
+package com.mao.example.provider;
+
+import com.mao.example.common.service.UserService;
+import com.mao.maorpc.RpcApplication;
+import com.mao.maorpc.registry.LocalRegistry;
+import com.mao.maorpc.server.HttpServer;
+import com.mao.maorpc.server.VertxHttpServer;
+
+public class EasyProviderExample {
+    public static void main(String[] args) {
+        // RPC框架初始化
+        RpcApplication.init();
+        // 注册服务
+        LocalRegistry.register(UserService.class.getName(), UserServiceImpl.class);
+
+        // 启动web服务
+        HttpServer httpServer = new VertxHttpServer();
+        httpServer.doStart(RpcApplication.getRpcConfig().getServerPort());
+    }
+}

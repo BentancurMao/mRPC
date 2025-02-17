@@ -1,0 +1,4 @@
+jdk=com.mao.maorpc.serializer.JdkSerializer
+json=com.mao.maorpc.serializer.JsonSerializer
+kryo=com.mao.maorpc.serializer.KryoSerializer
+hessian=com.mao.maorpc.serializer.HessianSerializer
