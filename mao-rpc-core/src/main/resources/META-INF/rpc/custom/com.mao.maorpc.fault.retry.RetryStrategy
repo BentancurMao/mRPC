@@ -1,0 +1,2 @@
+no=com.mao.maorpc.fault.retry.NoRetryStrategy
+fixedInterval=com.mao.maorpc.fault.retry.FixedIntervalRetryStrategy

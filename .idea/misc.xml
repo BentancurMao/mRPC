@@ -9,6 +9,9 @@
         <option value="$PROJECT_DIR$/example-provider/pom.xml" />
         <option value="$PROJECT_DIR$/mao-rpc-easy/pom.xml" />
         <option value="$PROJECT_DIR$/mao-rpc-core/pom.xml" />
+        <option value="$PROJECT_DIR$/mao-rpc-spring-boot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/example-springboot-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/example-springboot-consumer/pom.xml" />
       </list>
     </option>
   </component>

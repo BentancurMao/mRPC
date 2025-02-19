@@ -1,0 +1,4 @@
+failBack=com.mao.maorpc.fault.tolerant.FailBackTolerantStrategy
+failFast=com.mao.maorpc.fault.tolerant.FailFastTolerantStrategy
+failOver=com.mao.maorpc.fault.tolerant.FailOverTolerantStrategy
+failSafe=com.mao.maorpc.fault.tolerant.FailSafeTolerantStrategy

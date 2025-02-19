@@ -1,5 +1,8 @@
 package com.mao.maorpc.config;
 
+import com.mao.maorpc.fault.retry.RetryStrategyKeys;
+import com.mao.maorpc.fault.tolerant.TolerantStrategy;
+import com.mao.maorpc.fault.tolerant.TolerantStrategyKeys;
 import com.mao.maorpc.loadbalancer.LoadBalancerKeys;
 import com.mao.maorpc.serializer.SerializerKeys;
 import lombok.Data;
@@ -46,4 +49,14 @@ public class RpcConfig {
      * 负载均衡器
      */
     private String loadBalancer = LoadBalancerKeys.ROUND_ROBIN;
+
+    /**
+     * 重试策略
+     */
+    private String retryStrategy = RetryStrategyKeys.FIXED_INTERVAL;
+
+    /**
+     * 容错机制
+     */
+    private String tolerantStrategy = TolerantStrategyKeys.FAIL_BACK;
 }
